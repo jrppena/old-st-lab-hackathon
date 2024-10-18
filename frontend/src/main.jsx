@@ -6,6 +6,7 @@ import FaqPage from "./pages/faq-page.jsx";
 import Login from "./pages/login-page.jsx";
 import Signup from "./pages/signup-page.jsx";
 import UserProfile from './pages/user-profile-page.jsx'
+import Recommendations from "./pages/recommendations-page.jsx";
 import LandingPage from "./pages/landing-page.jsx";
 import PredictiveAnalytics from './pages/predictive-analytics.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <LandingPage />,
+  },
+  {
+    path: "/recommendations",
+    element: <Recommendations />,
   },
   {
     path: '/predictive-analytics',
