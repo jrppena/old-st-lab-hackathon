@@ -1,13 +1,17 @@
 import { FeatureCard } from "../components/feature-card";
 import { TestimonyCard } from "../components/testimony-card";
+import Header from "../components/header";
 
 const LandingPage = () => {
   return (
     <div className="min-h-screen" data-theme="light">
-      {/* Header (Placeholder) */}
+      {/* Header (Placeholder)
       <header className="bg-primary p-4 text-white text-center">
         <h1 className="text-2xl">Placeholder Header</h1>
-      </header>
+      </header> */}
+      <div>
+        <Header />
+      </div>
 
       {/* Hero Section */}
       <section className="relative hero min-h-screen">
